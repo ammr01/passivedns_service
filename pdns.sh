@@ -227,7 +227,6 @@ Group=passivedns
 Type=forking
 ExecStart=$RunScript
 ExecReload=$RelaodScript 
-Restart=$RelaodScript
 ExecStop=$StopScript
 RemainAfterExit=yes
 
